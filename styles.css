@@ -1,0 +1,51 @@
+body{
+    height: 98vh;
+    display: grid;
+    grid-template-rows: 250px 3fr;
+}
+
+.top{
+    display: flex;
+    align-items: flex-end;
+}
+
+.stuff{
+    width: 98vw;
+    margin: 15px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+input{
+    width: 500px;
+    height: 15px;
+}
+
+.img{
+    display: inline-block;
+}
+
+button{
+    display: block;
+}
+
+.bottom{
+    border: solid 1px black;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+
+.list{
+    margin: 5px;
+}
+
+li{
+    list-style-type: none;
+    border: solid 1px black;
+    margin: 5px 0;
+}
+
+strong{
+    font-size: x-large;
+}
